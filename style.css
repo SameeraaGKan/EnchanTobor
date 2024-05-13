@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* line 10*/
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+header h3 {
+    color: black;
+    border-color: bisque;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: rgb(0, 0, 0); 
+    pointer-events: none;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px rgba(255, 217, 2, 0.988);
+    border-color:rgb(252, 235, 4)
+}
+
+.navigation a {
+    text-decoration: none;
+    color:rgb(236, 218, 16);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    text-size-adjust: 3px;
+    text-shadow: black;
+}
+
+.navigation a:hover,    
+.navigation a.active{
+    background: rgb(218, 230, 60);
+    color:black;
+
+}
+
+/*line 48*/
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position:absolute;
+    font-size: 5.5em;
+    color:black;
+    text-shadow: 2px 2px 2px rgba(248, 235, 5, 0.8);
+}
+
+/*line 65*/
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    
+}
+
+.sec a {
+    color: rgb(244, 240, 3);
+}
+
+.tobor-image {
+    width: 250px; 
+    height: 250px; 
+    margin-left: 5px; 
+    margin-top: 60px; 
+}
+
+.tree {
+    width: 50%;
+}
+
+.sec h4 {
+    color: white;
+    margin-top: 200px;
+}
+
+#plant {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#vine-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    justify-content: left;
+}
+
+#vine-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: right;
+}
+
+.sec h2 {
+    color: white;
+}
+
+.sec h1 {
+    color: rgb(255, 250, 120);
+    font-size: 3 em;
+}
+
+
+  .parallax {
+    background-color: rgb(255, 250, 120);
+    background-size: auto;
+  }
